@@ -1,5 +1,5 @@
 # ProgressManager
-[ ![Bintray](https://img.shields.io/badge/bintray-v1.3.3-brightgreen.svg) ](https://bintray.com/jessyancoding/maven/progressmanager/1.3.3/link)
+[ ![Bintray](https://img.shields.io/badge/bintray-v1.5.0-brightgreen.svg) ](https://bintray.com/jessyancoding/maven/progressmanager/1.5.0/link)
 [ ![Build Status](https://travis-ci.org/JessYanCoding/ProgressManager.svg?branch=master) ](https://travis-ci.org/JessYanCoding/ProgressManager)
 [ ![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProgressManager-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5865)
 [ ![API](https://img.shields.io/badge/API-14%2B-blue.svg?style=flat-square) ](https://developer.android.com/about/versions/android-4.0.html)
@@ -24,13 +24,14 @@
 * Low intrusion, use this framework you do not need to change the code before uploading or downloading, ie using or not using this framework does not affect the original code.
 * Multi-end synchronization, the same data source upload or download progress can specify a number of different receivers, less to use **EventBus** achieve multiple port synchronization update progress.
 * Support multi-file upload
+* Support **URL** redirection
 * Automatic management of the listener, less to manually cancel the trouble of the listener.
 * The default run in the main line layer, less to switch the thread of trouble.
 * Lightweight framework, does not contain any three-party library, very small size.
 
 ## Download
 ``` gradle
- compile 'me.jessyan:progressmanager:1.3.3'
+ compile 'me.jessyan:progressmanager:1.5.0'
 ```
 
 ## Usage
